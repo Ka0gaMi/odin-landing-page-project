@@ -86,6 +86,7 @@ img {
 .second-flex {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .second-flex1,
