@@ -75,3 +75,43 @@ img {
     flex-wrap: wrap;
     width: 50%;
 }
+
+.second-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.second-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.second-flex1,
+.second-flex2,
+.second-flex3,
+.second-flex4 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+
+div.second-flex>div>p {
+    margin: 0;
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    text-overflow: wrap;
+    width: 50%;
+}
+
+#second-picture-set {
+    border: 3px solid #3882F6;
+    background-color: white;
+    border-radius: 8px;
+    height: 100px;
+    margin:0;
+}
