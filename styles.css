@@ -177,3 +177,17 @@ div.second-flex>div>p {
     height: 40px;
     border: 2px solid #F9FAF8; 
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+footer>p {
+    color:#F9FAF8;
+    font-size: 18px;
+    margin: 4px;
+}
